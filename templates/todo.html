@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<section>
+  <h2>To-Do item</h2>
+  <form method="post" action="/submittodoitem">
+    <label>Item Name<input name="itemName" required></label>
+    <label>Item Description<textarea name="itemDescription" required></textarea></label>
+    <button type="submit">Save item</button>
+  </form>
+</section>
+{% endblock %}

@@ -18,5 +18,10 @@ def api():
         return jsonify(json.load(file))
 
 
+@app.get("/todo")
+def todo():
+    return render_template("todo.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
