@@ -1,4 +1,5 @@
 [
-  {"id": 1, "name": "Flask", "topic": "Backend application"},
-  {"id": 2, "name": "Git", "topic": "Source control"}
+  {"id": 1, "name": "Flask", "topic": "Python web framework"},
+  {"id": 2, "name": "Git", "topic": "Version control"},
+  {"id": 3, "name": "GitHub", "topic": "Remote collaboration"}
 ]
